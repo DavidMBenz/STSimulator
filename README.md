@@ -1,2 +1,2 @@
 # STSimulator
-blah
+collaborative project for Advanced Python course
