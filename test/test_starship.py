@@ -1,5 +1,6 @@
-import unittest
-from src.starship import Starship
+import sys,unittest
+sys.path.append('E:\\python\\STSimulator\\src')
+from starship import Starship
 
 class TestStarship(unittest.TestCase):
     def setUp(self) -> None:
@@ -31,12 +32,9 @@ class TestStarship(unittest.TestCase):
     def test_str(self):
         self.assertEqual(str(self.test_starship_instance),'This is the starship "test".')
     def test_repr(self):
-        self.assertEqual(repr(self.test_starship_instance),'name: test, power: 1000, shield: 100, pop: 0')
+        self.assertEqual(repr(self.test_starship_instance),'starship name: test, power: 1000, shield: 100, pop: 0')
     #def test_something(self):
         #self.assertEqual(True, False)
-
-
-
 
 
 if __name__ == '__main__':

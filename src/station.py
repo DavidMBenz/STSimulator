@@ -12,7 +12,7 @@ class Station:
         return 'This is a generic station.'
 
     def __repr__(self):
-        return 'score: ' + str(self.score) + ', crew: ' + str(self.crew_num)
+        return 'station score: ' + str(self.score) + ', crew: ' + str(self.crew_num)
 
 if __name__ == '__main__':
-    unittest.main()
+    Station()

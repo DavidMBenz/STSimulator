@@ -19,6 +19,4 @@ class Starship:
         return 'This is the starship "' + self.name + '".'
 
     def __repr__(self):
-        return 'name: ' + self.name + ', power: ' + str(self.power_level) + ', shield: ' + str(self.shield)  + ', pop: ' + str(self.population)
-
-
+        return 'starship name: ' + self.name + ', power: ' + str(self.power_level) + ', shield: ' + str(self.shield)  + ', pop: ' + str(self.population)
